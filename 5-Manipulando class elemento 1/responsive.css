@@ -1,0 +1,26 @@
+@media(max-width:700px) {
+    #titulo{
+        max-width: 90%;
+        display: block;
+        margin: auto;
+        height:200px;
+        border: 3px solid rgb(255, 255, 255);
+    
+}
+    h1{
+        font-size:30px;
+    }
+    h2{
+        font-size:20px;
+    }
+
+    button{
+        width: 100px;
+        font-size: 20px !important;
+        margin-top:25px !important;
+        border: 1px solid white !important;
+    }
+    button.amarelo{
+        color: rgb(0, 0, 0);
+    }
+}

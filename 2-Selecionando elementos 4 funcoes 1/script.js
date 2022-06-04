@@ -1,0 +1,1 @@
+document.getElementById('exemplo').innerHTML = "AGM <button style='color:white; background-color:green; padding:10px; margin:20px; width:200px; border:1px solid white; cursor:pointer; ' >JS</button>" ;

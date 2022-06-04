@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais e suas características</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <h1>Clique no nome de um animal e veja suas características</h1>
+        <div class="galeria">
+            <img class="imagem" data-animal="Cachorro" src="img/cachorro.jpg" alt="Cachorro">
+
+            <button class="informacao" onclick="pegarAnimal()"> Características do animal</button>
+
+        </div>
+    </header>
+
+
+    <div class="container">
+
+        <button
+            onclick="trocarImagem('cachorro.jpg','CACHORRO: O cachorro é um mamífero quadrúpede (ou seja, anda sobre quatro patas) que se destaca por ter uma cauda e uma cobertura de pelos por todo o seu corpo. Entretanto, hoje em dia, graças às diversas raças caninas existentes, encontramos cães de todos os tamanhos, formas e cores.')">Cachorro</button>
+
+
+        <button
+            onclick="trocarImagem('gato.jpg','GATO: Quais as características do gato? De nome científico Felis catus, o gato é um mamífero carnívoro e quadrúpede, ou seja, que anda sobre quatro patas. Este animal conta com ouvidos e olfações bem aguçadas, unhas retráteis, visão noturna avantajada e um corpo bastante flexível.')">Gato</button>
+
+        <button
+            onclick="trocarImagem('coelho.jpg',
+    'COELHO: Os coelhos são mamíferos pertencentes a Ordem Lagomorpha e Família Leporidae. Os animais da raça New Zealand (Oryctolagus cunigulus, coelho doméstico) possuem como características corpo arredondado, cabeça grande com largas orelhas, audição e olfato bem desenvolvidos e amplo campo de visão.')">Coelho</button>
+
+<button
+onclick="trocarImagem('tartaruga.jpg',
+'TARTARUGA: As tartarugas possuem uma carapaça dorsal que internamente é composta de uma placa óssea e externamente por placas córneas. Há aberturas apenas para a saída do pescoço, das patas e da cauda. Elas são aquáticas e vivem em água doce ou salgada, suas patas parecem com nadadeiras, permitindo fácil locomoção.')">Tartaruga</button>
+
+        <button
+            onclick="trocarImagem('macaco.jpg',
+    'MACACO: Os macacos pertencem à classe Mammalia, e, como todo mamífero, apresentam o corpo recoberto por pelos e possuem glândulas mamárias. Os pelos desses animais variam de coloração a depender da espécie estudada.')">Macaco</button>
+
+        <button
+            onclick="trocarImagem('elefante.jpg',
+    'ELEFANTE: Apresentam uma cabeça grande com orelhas largas e achatadas, sendo que estas possuem formas e marcas especiais, como uma impressão digital. Apresentam uma probóscide (tromba) longa e muscular formada pelo lábio superior e nariz. Ela desempenha diversas funções, como a manipulação de objetos e a ingestão de água.')">Elefante</button>
+
+        <button
+            onclick="trocarImagem('girafa.jpg',
+    'GIRAFA: A girafa é um vertebrado de grande estatura. O macho, geralmente maior que a fêmea, pode chegar a cerca de 5,3 m de altura e a pesar em torno de 1.200 kg; já a fêmea pode alcançar a estatura de cerca de 4,3 m e chegar a pesar 830 kg. A longevidade desse animal é de cerca de 25 anos.')">Girafa</button>
+
+        <button
+            onclick="trocarImagem('onca.jpg',
+    'ONÇA: A onça-pintada é considerada o maior felino das Américas, sendo também o maior carnívoro da América do Sul, podendo medir cerca de um metro e 90 cm de comprimento e 80 cm de altura e pesar até 135 kg. Apresenta um corpo robusto e uma grande força muscular.')">Onça</button>
+
+        <button
+            onclick="trocarImagem('leao.jpg',
+'LEÃO: Os leões são felinos que se destacam pelo seu tamanho, sendo considerados o segundo maior felino do mundo, ficando atrás apenas dos tigres. Apresentam um tamanho de cerca de 1,37 a 2 m (corpo e cabeça) e uma cauda que varia entre 66 e 100 cm.')">Leão</button>
+
+
+        <button
+            onclick="trocarImagem('urso.jpg',
+    'URSO: Apresentam caudas curtas e orelhas pequenas e arredondadas. São excelentes nadadores. Medem, geralmente, entre 1 m e 2,8 m, com registro de indivíduos de uma subespécie, Ursus arctos (urso-pardo), medindo mais de 3 m. Os machos geralmente são maiores que as fêmeas.')">Urso</button>
+        <button
+            onclick="trocarImagem('tucano.jpg',
+    'TUCANO: Mede cerca de 56 centímetros de comprimento e podem pesar em torno de 540 gramas. Com a característica marcante de possuir enorme bico alaranjado com uma mancha negra na ponta. Sua plumagem é negra, exceto no peito e na base da cauda, que são brancos.')">Tucano</button>
+        <button
+            onclick="trocarImagem('ovelha.jpg',
+    'OVELHA: As ovelhas são mamíferos quadrúpedes e herbívoros, fazendo parte da ordem Artiodactyla e da família Bovidae. Suas patas terminam em cascos, garantindo uma boa movimentação para alimentar-se. Vale destacar que elas são, na maioria das vezes, domesticadas.')">Ovelha</button>
+        <button
+            onclick="trocarImagem('pato.jpg',
+    'PATO: O pato tem um pescoço longo e um bico que pode ser amarelo, laranja e até preto. É comum possuírem carúnculas, verrugas avermelhadas, sobre o bico. Já nos pés possuem membranas natatórias que auxiliam o nado. Os patos podem atingir até 85 centímetros de comprimento')">Pato</button>
+        <button class="ultimo"
+            onclick="trocarImagem('ganco.jpg',
+    'GANSO: O ganso é uma ave aquática de cabeça pequena, pescoço longo e corpo robusto. Seu tamanho pode variar entre 64 cm e 1,14 m de comprimento. O bico é volumoso e estreito na ponta, facilitando a alimentação à base de capim, frutas, legumes, grãos e ervas, mas também pode comer caracóis, minhocas e insetos.')">Ganso</button>
+       
+    </div>
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
